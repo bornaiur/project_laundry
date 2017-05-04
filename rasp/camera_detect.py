@@ -21,7 +21,7 @@ if __name__ == "__main__":
     cam = cv2.VideoCapture('in.mp4')
     i = [None, None, None]
     init_scene = cv2.cvtColor(cam.read()[1], cv2.COLOR_RGB2GRAY)
-    stopped_scene = cv2.cvtColor(cam.read()[1], cv2.COLOR_RGB2GRAY)
+    stopped_scene = init_scene
 
     for n in range(3):
         i[n] = cv2.cvtColor(cam.read()[1], cv2.COLOR_RGB2GRAY)
@@ -33,11 +33,11 @@ if __name__ == "__main__":
         ret, thrimg = cv2.threshold(diff, thresh, 1, cv2.THRESH_BINARY)
         count = cv2.countNonZero(thrimg)
 
-        if (count < 1):
-            diff_init = diffImage([init_scene, i[1], i[2]])
+        if (count <= 1):
+            diff_init = diffImage([init_scene, init_scene, i[2]])
             _, thrimg_init = cv2.threshold(diff_init, thresh, 1, cv2.THRESH_BINARY)
 
-            diff_stopped = diffImage([stopped_scene, i[1], i[2]])
+            diff_stopped = diffImage([stopped_scene, stopped_scene, i[2]])
             _, thrimg_stop = cv2.threshold(diff_stopped, thresh, 1, cv2.THRESH_BINARY)
 
             if (cv2.countNonZero(thrimg_init) > 1) and (cv2.countNonZero(thrimg_stop) > 1):
