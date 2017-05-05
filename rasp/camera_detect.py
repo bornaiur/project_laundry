@@ -53,18 +53,19 @@ def run():
             _, temp_thrimg = cv2.threshold(temp_diff, thresh, 1, cv2.THRESH_BINARY)
             count = cv2.countNonZero(temp_thrimg)
 
-            if count > 1 :
-                now = datetime.datetime.now()
-                now_datetime = now.strftime('%y%m%d-%H%M%S%f')
-                cv2.imwrite('img/{}.jpg'.format(now_datetime), i_origin[2])
+            if count > 1:
+                yield(i_origin[2])
+                # now = datetime.datetime.now()
+                # now_datetime = now.strftime('%y%m%d-%H%M%S%f')
+                # cv2.imwrite('img/{}.jpg'.format(now_datetime), i_origin[2])
 
-        cv2.imshow('Detecting Motion', i_origin[2])
+        # cv2.imshow('Detecting Motion', i_origin[2])
         if not updateCameraImage(cam, i, i_origin) :
             break
         # updateCameraImage(cam, i, i_origin)
-        key = cv2.waitKey(10)
-        if key == 27:
-            break
+        # key = cv2.waitKey(10)
+        # if key == 27:
+        #     break
 
 if __name__ == "__main__":
     run()
