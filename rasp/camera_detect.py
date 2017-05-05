@@ -1,10 +1,12 @@
 import cv2
 import datetime
 
+
 def diffImage(i):
     diff0 = cv2.absdiff(i[0], i[1])
     diff1 = cv2.absdiff(i[1], i[2])
     return cv2.bitwise_and(diff0, diff1)
+
 
 def updateCameraImage(cam, i, i_origin):
     i[0] = i[1]
@@ -51,10 +53,10 @@ def run():
             _, temp_thrimg = cv2.threshold(temp_diff, thresh, 1, cv2.THRESH_BINARY)
             count = cv2.countNonZero(temp_thrimg)
 
-            if(count > 1) :
+            if count > 1 :
                 now = datetime.datetime.now()
-                nowDatetime = now.strftime('%y%m%d-%H%M%S%f')
-                cv2.imwrite('img/{}.jpg'.format(nowDatetime), i_origin[2])
+                now_datetime = now.strftime('%y%m%d-%H%M%S%f')
+                cv2.imwrite('img/{}.jpg'.format(now_datetime), i_origin[2])
 
         cv2.imshow('Detecting Motion', i_origin[2])
         if not updateCameraImage(cam, i, i_origin) :
