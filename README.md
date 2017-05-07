@@ -12,10 +12,6 @@
 메인 함수 run(ip, port, img)
 이미지를 서버로 전송
 
-### start
-임시 메인 모듈
-
-
 ## server
 
 ### server_socket
@@ -27,3 +23,8 @@ model로 부터 받은 반환값을 클라이언트로 전송
 ### model
 fake
 테스트를 위한 임시 모델
+
+
+## 실행
+1. server_start
+2. rasp_start
