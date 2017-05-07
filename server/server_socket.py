@@ -2,7 +2,8 @@ import socket
 import cv2
 import numpy
 import datetime
-import model
+
+from server import model
 
 
 def rcv_all(sock, size):
@@ -48,6 +49,3 @@ def run(port):
         conn.close()
 
 
-# for test
-if __name__ == "__main__":
-    run(9000)
