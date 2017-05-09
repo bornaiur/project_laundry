@@ -1,11 +1,12 @@
 import time
 import cv2
+import sys
 
 from rasp import camera_detect
 from rasp import client_socket
 
 if __name__ == "__main__":
-    image_detect = camera_detect.run()
+    image_detect = camera_detect.run(sys.argv[1])
 
     index = 1
     try:

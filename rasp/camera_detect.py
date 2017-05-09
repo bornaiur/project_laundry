@@ -25,10 +25,10 @@ def updateCameraImage(cam, i, i_origin):
         return False
 
 
-def run():
+def run(source):
     ready = False
     thresh = 16
-    cam = cv2.VideoCapture('in.mp4')
+    cam = cv2.VideoCapture(source)
 
     i = [None, None, None]
     i_origin = [None, None, None]
@@ -37,7 +37,10 @@ def run():
         i_origin[n] = cam.read()[1]
         i[n] = cv2.cvtColor(i_origin[n], cv2.COLOR_RGB2GRAY)
 
-    init_scene = i[2]
+    #init_scene = i[2]
+    #cv2.imwrite('received_img/init.jpg', i_origin[2])
+
+    wait_frame = 0
 
     while True:
         diff = diffImage(i)
@@ -46,14 +49,19 @@ def run():
 
         if count > 1:
             ready = True
+            wait_frame = 0
 
         if ready and count < 1:
-            ready = False
-            temp_diff = cv2.absdiff(init_scene, i[2])
-            _, temp_thrimg = cv2.threshold(temp_diff, thresh, 1, cv2.THRESH_BINARY)
-            count = cv2.countNonZero(temp_thrimg)
+            wait_frame = wait_frame + 1
+            
+            #temp_diff = cv2.absdiff(init_scene, i[2])
+            #_, temp_thrimg = cv2.threshold(temp_diff, thresh, 1, cv2.THRESH_BINARY)
+            #count = cv2.countNonZero(temp_thrimg)
 
-            if count > 1:
+            if wait_frame > 15: #and count > 1:
+                wait_frame = 0
+                ready = False
+
                 yield(i_origin[2])
                 # now = datetime.datetime.now()
                 # now_datetime = now.strftime('%y%m%d-%H%M%S%f')
@@ -67,7 +75,5 @@ def run():
         # if key == 27:
         #     break
 
-if __name__ == "__main__":
-    run()
 
 

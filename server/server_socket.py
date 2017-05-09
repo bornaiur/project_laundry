@@ -34,7 +34,7 @@ def run(port):
 
         now = datetime.datetime.now()
         now_datetime = now.strftime('%y%m%d-%H%M%S%f')
-        filename = 'img/{}.jpg'.format(now_datetime)
+        filename = 'received_img/{}.jpg'.format(now_datetime)
         cv2.imwrite(filename, decoded_img)
 
         # cv2.imshow('SERVER', decoded_img)
