@@ -1,6 +1,6 @@
 import cv2
 import datetime
-
+import os
 
 def diffImage(i):
     diff0 = cv2.absdiff(i[0], i[1])
@@ -26,9 +26,12 @@ def updateCameraImage(cam, i, i_origin):
 
 
 def run(source):
+    os.system('sudo modprobe bcm2835-v4l2')
+
     ready = False
     thresh = 16
-    cam = cv2.VideoCapture(source)
+    #cam = cv2.VideoCapture(source)
+    cam = cv2.VideoCapture(0)
 
     i = [None, None, None]
     i_origin = [None, None, None]

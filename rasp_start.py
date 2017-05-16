@@ -6,7 +6,8 @@ from rasp import camera_detect
 from rasp import client_socket
 
 if __name__ == "__main__":
-    image_detect = camera_detect.run(sys.argv[1])
+    #image_detect = camera_detect.run(sys.argv[1])
+    image_detect = camera_detect.run(None)
 
     index = 1
     try:
