@@ -8,9 +8,3 @@ def temp_model(filename):
     ans = labels[random.randint(0, 5)]
     print('[ {} ]'.format(ans), flush=True)
     return ans
-
-
-
-
-
-

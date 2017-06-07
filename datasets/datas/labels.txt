@@ -1,0 +1,7 @@
+0:jeans
+1:shirts
+2:socks
+3:sweater
+4:towel
+5:underwear
+6:white_T
