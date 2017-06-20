@@ -21,10 +21,17 @@
 model로 부터 받은 반환값을 클라이언트로 전송
 
 ### model
-fake
-테스트를 위한 임시 모델
+이미지를 받아서 예측모델로 넘겨 label을 받아온다
 
+## datasets
+수집 데이터와 데이터를 tfrecord로 변환
 
-## 실행
-1. server_start
-2. rasp_start
+### convert_datas.py
+convert to tfrecord
+
+## venv
+파이선 가상환경 설정들
+
+## slim
+tf slim 라이브러리중 필요한것만 남기고
+프로젝트에 맞게 수정

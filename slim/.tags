@@ -1,0 +1,740 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^from __future__ import absolute_import$/;"	namespace	line:21
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^from __future__ import division$/;"	namespace	line:22
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^from __future__ import print_function$/;"	namespace	line:23
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^import os$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^import tensorflow as tf$/;"	namespace	line:26
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^from datasets import dataset_utils$/;"	namespace	line:28
+slim	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^slim = tf.contrib.slim$/;"	variable	line:30
+_FILE_PATTERN	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^_FILE_PATTERN = 'cifar10_%s.tfrecord'$/;"	variable	line:32
+SPLITS_TO_SIZES	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^SPLITS_TO_SIZES = {'train': 50000, 'test': 10000}$/;"	variable	line:34
+_NUM_CLASSES	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^_NUM_CLASSES = 10$/;"	variable	line:36
+_ITEMS_TO_DESCRIPTIONS	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	variable	line:38
+get_split	C:\Users\borna\PycharmProjects\models\slim\datasets\cifar10.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	function	line:44
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from __future__ import print_function$/;"	namespace	line:19
+cifar10	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from datasets import cifar10$/;"	namespace	line:21
+flowers	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from datasets import flowers$/;"	namespace	line:22
+imagenet	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from datasets import imagenet$/;"	namespace	line:23
+mnist	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^from datasets import mnist$/;"	namespace	line:24
+datasets_map	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^datasets_map = {$/;"	variable	line:26
+get_dataset	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_factory.py	/^def get_dataset(name, split_name, dataset_dir, file_pattern=None, reader=None):$/;"	function	line:34
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^from __future__ import print_function$/;"	namespace	line:18
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^import os$/;"	namespace	line:20
+sys	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^import sys$/;"	namespace	line:21
+tarfile	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^import tarfile$/;"	namespace	line:22
+urllib	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^from six.moves import urllib$/;"	namespace	line:24
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^import tensorflow as tf$/;"	namespace	line:25
+LABELS_FILENAME	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^LABELS_FILENAME = 'labels.txt'$/;"	variable	line:27
+int64_feature	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def int64_feature(values):$/;"	function	line:30
+bytes_feature	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def bytes_feature(values):$/;"	function	line:44
+image_to_tfexample	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def image_to_tfexample(image_data, image_format, height, width, class_id):$/;"	function	line:56
+download_and_uncompress_tarball	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def download_and_uncompress_tarball(tarball_url, dataset_dir):$/;"	function	line:66
+_progress	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^  def _progress(count, block_size, total_size):$/;"	function	line:76	function:download_and_uncompress_tarball
+write_label_file	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def write_label_file(labels_to_class_names, dataset_dir,$/;"	function	line:87
+has_labels	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def has_labels(dataset_dir, filename=LABELS_FILENAME):$/;"	function	line:103
+read_label_file	C:\Users\borna\PycharmProjects\models\slim\datasets\dataset_utils.py	/^def read_label_file(dataset_dir, filename=LABELS_FILENAME):$/;"	function	line:116
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^from __future__ import absolute_import$/;"	namespace	line:25
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^from __future__ import division$/;"	namespace	line:26
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^from __future__ import print_function$/;"	namespace	line:27
+cPickle	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import cPickle$/;"	namespace	line:29
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import os$/;"	namespace	line:30
+sys	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import sys$/;"	namespace	line:31
+tarfile	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import tarfile$/;"	namespace	line:32
+np	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import numpy as np$/;"	namespace	line:34
+urllib	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^from six.moves import urllib$/;"	namespace	line:35
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^import tensorflow as tf$/;"	namespace	line:36
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^from datasets import dataset_utils$/;"	namespace	line:38
+_DATA_URL	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^_DATA_URL = 'https:\/\/www.cs.toronto.edu\/~kriz\/cifar-10-python.tar.gz'$/;"	variable	line:41
+_NUM_TRAIN_FILES	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^_NUM_TRAIN_FILES = 5$/;"	variable	line:44
+_IMAGE_SIZE	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^_IMAGE_SIZE = 32$/;"	variable	line:47
+_CLASS_NAMES	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^_CLASS_NAMES = [$/;"	variable	line:50
+_add_to_tfrecord	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^def _add_to_tfrecord(filename, tfrecord_writer, offset=0):$/;"	function	line:64
+_get_output_filename	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^def _get_output_filename(dataset_dir, split_name):$/;"	function	line:108
+_download_and_uncompress_dataset	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^def _download_and_uncompress_dataset(dataset_dir):$/;"	function	line:121
+_progress	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^    def _progress(count, block_size, total_size):$/;"	function	line:131	function:_download_and_uncompress_dataset
+_clean_up_temporary_files	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	function	line:142
+run	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_cifar10.py	/^def run(dataset_dir):$/;"	function	line:156
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^from __future__ import absolute_import$/;"	namespace	line:26
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^from __future__ import division$/;"	namespace	line:27
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^from __future__ import print_function$/;"	namespace	line:28
+math	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^import math$/;"	namespace	line:30
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^import os$/;"	namespace	line:31
+random	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^import random$/;"	namespace	line:32
+sys	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^import sys$/;"	namespace	line:33
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^import tensorflow as tf$/;"	namespace	line:35
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^from datasets import dataset_utils$/;"	namespace	line:37
+_DATA_URL	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^_DATA_URL = 'http:\/\/download.tensorflow.org\/example_images\/flower_photos.tgz'$/;"	variable	line:40
+_NUM_VALIDATION	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^_NUM_VALIDATION = 350$/;"	variable	line:43
+_RANDOM_SEED	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^_RANDOM_SEED = 0$/;"	variable	line:46
+_NUM_SHARDS	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^_NUM_SHARDS = 5$/;"	variable	line:49
+ImageReader	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^class ImageReader(object):$/;"	class	line:52
+__init__	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^  def __init__(self):$/;"	member	line:55	class:ImageReader
+read_image_dims	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^  def read_image_dims(self, sess, image_data):$/;"	member	line:60	class:ImageReader
+decode_jpeg	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^  def decode_jpeg(self, sess, image_data):$/;"	member	line:64	class:ImageReader
+_get_filenames_and_classes	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def _get_filenames_and_classes(dataset_dir):$/;"	function	line:72
+_get_dataset_filename	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def _get_dataset_filename(dataset_dir, split_name, shard_id):$/;"	function	line:101
+_convert_dataset	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def _convert_dataset(split_name, filenames, class_names_to_ids, dataset_dir):$/;"	function	line:107
+_clean_up_temporary_files	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	function	line:153
+_dataset_exists	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def _dataset_exists(dataset_dir):$/;"	function	line:167
+run	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_flowers.py	/^def run(dataset_dir):$/;"	function	line:177
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^from __future__ import absolute_import$/;"	namespace	line:25
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^from __future__ import division$/;"	namespace	line:26
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^from __future__ import print_function$/;"	namespace	line:27
+gzip	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^import gzip$/;"	namespace	line:29
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^import os$/;"	namespace	line:30
+sys	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^import sys$/;"	namespace	line:31
+np	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^import numpy as np$/;"	namespace	line:33
+urllib	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^from six.moves import urllib$/;"	namespace	line:34
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^import tensorflow as tf$/;"	namespace	line:35
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^from datasets import dataset_utils$/;"	namespace	line:37
+_DATA_URL	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_DATA_URL = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	variable	line:40
+_TRAIN_DATA_FILENAME	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_TRAIN_DATA_FILENAME = 'train-images-idx3-ubyte.gz'$/;"	variable	line:41
+_TRAIN_LABELS_FILENAME	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_TRAIN_LABELS_FILENAME = 'train-labels-idx1-ubyte.gz'$/;"	variable	line:42
+_TEST_DATA_FILENAME	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_TEST_DATA_FILENAME = 't10k-images-idx3-ubyte.gz'$/;"	variable	line:43
+_TEST_LABELS_FILENAME	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_TEST_LABELS_FILENAME = 't10k-labels-idx1-ubyte.gz'$/;"	variable	line:44
+_IMAGE_SIZE	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_IMAGE_SIZE = 28$/;"	variable	line:46
+_NUM_CHANNELS	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_NUM_CHANNELS = 1$/;"	variable	line:47
+_CLASS_NAMES	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^_CLASS_NAMES = [$/;"	variable	line:50
+_extract_images	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _extract_images(filename, num_images):$/;"	function	line:64
+_extract_labels	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _extract_labels(filename, num_labels):$/;"	function	line:84
+_add_to_tfrecord	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _add_to_tfrecord(data_filename, labels_filename, num_images,$/;"	function	line:102
+_get_output_filename	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _get_output_filename(dataset_dir, split_name):$/;"	function	line:132
+_download_dataset	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _download_dataset(dataset_dir):$/;"	function	line:145
+_progress	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^      def _progress(count, block_size, total_size):$/;"	function	line:159	function:_download_dataset
+_clean_up_temporary_files	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def _clean_up_temporary_files(dataset_dir):$/;"	function	line:172
+run	C:\Users\borna\PycharmProjects\models\slim\datasets\download_and_convert_mnist.py	/^def run(dataset_dir):$/;"	function	line:186
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^from __future__ import absolute_import$/;"	namespace	line:21
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^from __future__ import division$/;"	namespace	line:22
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^from __future__ import print_function$/;"	namespace	line:23
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^import os$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^import tensorflow as tf$/;"	namespace	line:26
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^from datasets import dataset_utils$/;"	namespace	line:28
+slim	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^slim = tf.contrib.slim$/;"	variable	line:30
+_FILE_PATTERN	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^_FILE_PATTERN = 'scrapped_%s_*.tfrecord'$/;"	variable	line:32
+SPLITS_TO_SIZES	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^SPLITS_TO_SIZES = {'train': 6401, 'validation': 350}$/;"	variable	line:34
+_NUM_CLASSES	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^_NUM_CLASSES = 7$/;"	variable	line:36
+_ITEMS_TO_DESCRIPTIONS	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	variable	line:38
+get_split	C:\Users\borna\PycharmProjects\models\slim\datasets\flowers.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	function	line:44
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^from __future__ import absolute_import$/;"	namespace	line:31
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^from __future__ import division$/;"	namespace	line:32
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^from __future__ import print_function$/;"	namespace	line:33
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^import os$/;"	namespace	line:35
+urllib	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^from six.moves import urllib$/;"	namespace	line:36
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^import tensorflow as tf$/;"	namespace	line:37
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^from datasets import dataset_utils$/;"	namespace	line:39
+slim	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^slim = tf.contrib.slim$/;"	variable	line:41
+_FILE_PATTERN	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^_FILE_PATTERN = '%s-*'$/;"	variable	line:44
+_SPLITS_TO_SIZES	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^_SPLITS_TO_SIZES = {$/;"	variable	line:46
+_ITEMS_TO_DESCRIPTIONS	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	variable	line:51
+_NUM_CLASSES	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^_NUM_CLASSES = 1001$/;"	variable	line:59
+create_readable_names_for_imagenet_labels	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^def create_readable_names_for_imagenet_labels():$/;"	function	line:62
+get_split	C:\Users\borna\PycharmProjects\models\slim\datasets\imagenet.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	function	line:118
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^from __future__ import absolute_import$/;"	namespace	line:21
+division	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^from __future__ import division$/;"	namespace	line:22
+print_function	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^from __future__ import print_function$/;"	namespace	line:23
+os	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^import os$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^import tensorflow as tf$/;"	namespace	line:26
+dataset_utils	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^from datasets import dataset_utils$/;"	namespace	line:28
+slim	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^slim = tf.contrib.slim$/;"	variable	line:30
+_FILE_PATTERN	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^_FILE_PATTERN = 'mnist_%s.tfrecord'$/;"	variable	line:32
+_SPLITS_TO_SIZES	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^_SPLITS_TO_SIZES = {'train': 60000, 'test': 10000}$/;"	variable	line:34
+_NUM_CLASSES	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^_NUM_CLASSES = 10$/;"	variable	line:36
+_ITEMS_TO_DESCRIPTIONS	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^_ITEMS_TO_DESCRIPTIONS = {$/;"	variable	line:38
+get_split	C:\Users\borna\PycharmProjects\models\slim\datasets\mnist.py	/^def get_split(split_name, dataset_dir, file_pattern=None, reader=None):$/;"	function	line:44
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^from __future__ import absolute_import$/;"	namespace	line:98
+division	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^from __future__ import division$/;"	namespace	line:99
+print_function	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^from __future__ import print_function$/;"	namespace	line:100
+collections	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^import collections$/;"	namespace	line:102
+tf	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^import tensorflow as tf$/;"	namespace	line:104
+control_flow_ops	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^from tensorflow.python.ops import control_flow_ops$/;"	namespace	line:106
+slim	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^slim = tf.contrib.slim$/;"	variable	line:108
+__all__	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^__all__ = ['create_clones',$/;"	variable	line:111
+Clone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^Clone = collections.namedtuple('Clone',$/;"	variable	line:121
+DeployedModel	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^DeployedModel = collections.namedtuple('DeployedModel',$/;"	variable	line:128
+_deployment_params	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^_deployment_params = {'num_clones': 1,$/;"	variable	line:136
+create_clones	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def create_clones(config, model_fn, args=None, kwargs=None):$/;"	function	line:145
+_gather_clone_loss	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def _gather_clone_loss(clone, num_clones, regularization_losses):$/;"	function	line:200
+_optimize_clone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def _optimize_clone(optimizer, clone, num_clones, regularization_losses,$/;"	function	line:241
+optimize_clones	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def optimize_clones(clones, optimizer,$/;"	function	line:267
+deploy	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def deploy(config,$/;"	function	line:312
+_sum_clones_gradients	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def _sum_clones_gradients(clone_grads):$/;"	function	line:416
+_add_gradients_summaries	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^def _add_gradients_summaries(grads_and_vars):$/;"	function	line:449
+DeploymentConfig	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^class DeploymentConfig(object):$/;"	class	line:476
+__init__	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def __init__(self,$/;"	member	line:484	class:DeploymentConfig
+num_clones	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def num_clones(self):$/;"	member	line:537	class:DeploymentConfig
+clone_on_cpu	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def clone_on_cpu(self):$/;"	member	line:541	class:DeploymentConfig
+replica_id	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def replica_id(self):$/;"	member	line:545	class:DeploymentConfig
+num_replicas	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def num_replicas(self):$/;"	member	line:549	class:DeploymentConfig
+num_ps_tasks	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def num_ps_tasks(self):$/;"	member	line:553	class:DeploymentConfig
+ps_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def ps_device(self):$/;"	member	line:557	class:DeploymentConfig
+worker_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def worker_device(self):$/;"	member	line:561	class:DeploymentConfig
+caching_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def caching_device(self):$/;"	member	line:564	class:DeploymentConfig
+clone_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def clone_device(self, clone_index):$/;"	member	line:577	class:DeploymentConfig
+clone_scope	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def clone_scope(self, clone_index):$/;"	member	line:601	class:DeploymentConfig
+optimizer_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def optimizer_device(self):$/;"	member	line:620	class:DeploymentConfig
+inputs_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def inputs_device(self):$/;"	member	line:631	class:DeploymentConfig
+variables_device	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^  def variables_device(self):$/;"	member	line:643	class:DeploymentConfig
+_PSDeviceChooser	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^    class _PSDeviceChooser(object):$/;"	class	line:654	function:DeploymentConfig.variables_device
+__init__	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^      def __init__(self, device, tasks):$/;"	member	line:657	class:DeploymentConfig.variables_device._PSDeviceChooser
+choose	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^      def choose(self, op):$/;"	member	line:662	class:DeploymentConfig.variables_device._PSDeviceChooser
+chooser	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy.py	/^      chooser = _PSDeviceChooser(device, self._num_ps_tasks)$/;"	variable	line:677	class:DeploymentConfig.variables_device._PSDeviceChooser
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+model_deploy	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^from deployment import model_deploy$/;"	namespace	line:24
+slim	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^slim = tf.contrib.slim$/;"	variable	line:26
+DeploymentConfigTest	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^class DeploymentConfigTest(tf.test.TestCase):$/;"	class	line:29
+testDefaults	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testDefaults(self):$/;"	member	line:31	class:DeploymentConfigTest
+testCPUonly	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCPUonly(self):$/;"	member	line:42	class:DeploymentConfigTest
+testMultiGPU	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testMultiGPU(self):$/;"	member	line:52	class:DeploymentConfigTest
+testPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testPS(self):$/;"	member	line:64	class:DeploymentConfigTest
+testMultiGPUPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testMultiGPUPS(self):$/;"	member	line:88	class:DeploymentConfigTest
+testReplicasPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testReplicasPS(self):$/;"	member	line:103	class:DeploymentConfigTest
+testReplicasMultiGPUPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testReplicasMultiGPUPS(self):$/;"	member	line:115	class:DeploymentConfigTest
+testVariablesPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testVariablesPS(self):$/;"	member	line:130	class:DeploymentConfigTest
+LogisticClassifier	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^def LogisticClassifier(inputs, labels, scope=None, reuse=None):$/;"	function	line:149
+BatchNormClassifier	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^def BatchNormClassifier(inputs, labels, scope=None, reuse=None):$/;"	function	line:158
+CreatecloneTest	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^class CreatecloneTest(tf.test.TestCase):$/;"	class	line:169
+setUp	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def setUp(self):$/;"	member	line:171	class:CreatecloneTest
+testCreateLogisticClassifier	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateLogisticClassifier(self):$/;"	member	line:183	class:CreatecloneTest
+testCreateSingleclone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateSingleclone(self):$/;"	member	line:209	class:CreatecloneTest
+testCreateMulticlone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateMulticlone(self):$/;"	member	line:235	class:CreatecloneTest
+testCreateOnecloneWithPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateOnecloneWithPS(self):$/;"	member	line:263	class:CreatecloneTest
+testCreateMulticloneWithPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateMulticloneWithPS(self):$/;"	member	line:288	class:CreatecloneTest
+OptimizeclonesTest	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^class OptimizeclonesTest(tf.test.TestCase):$/;"	class	line:316
+setUp	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def setUp(self):$/;"	member	line:318	class:OptimizeclonesTest
+testCreateLogisticClassifier	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateLogisticClassifier(self):$/;"	member	line:330	class:OptimizeclonesTest
+testCreateSingleclone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateSingleclone(self):$/;"	member	line:356	class:OptimizeclonesTest
+testCreateMulticlone	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateMulticlone(self):$/;"	member	line:382	class:OptimizeclonesTest
+testCreateMulticloneCPU	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateMulticloneCPU(self):$/;"	member	line:409	class:OptimizeclonesTest
+testCreateOnecloneWithPS	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testCreateOnecloneWithPS(self):$/;"	member	line:437	class:OptimizeclonesTest
+DeployTest	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^class DeployTest(tf.test.TestCase):$/;"	class	line:465
+setUp	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def setUp(self):$/;"	member	line:467	class:DeployTest
+testLocalTrainOp	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testLocalTrainOp(self):$/;"	member	line:479	class:DeployTest
+testNoSummariesOnGPU	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testNoSummariesOnGPU(self):$/;"	member	line:526	class:DeployTest
+ModelFn	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^      def ModelFn():$/;"	function	line:531	function:DeployTest.testNoSummariesOnGPU
+testNoSummariesOnGPUForEvals	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^  def testNoSummariesOnGPUForEvals(self):$/;"	member	line:545	class:DeployTest
+ModelFn	C:\Users\borna\PycharmProjects\models\slim\deployment\model_deploy_test.py	/^      def ModelFn():$/;"	function	line:550	function:DeployTest.testNoSummariesOnGPUForEvals
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from __future__ import absolute_import$/;"	namespace	line:33
+division	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from __future__ import division$/;"	namespace	line:34
+print_function	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from __future__ import print_function$/;"	namespace	line:35
+tf	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^import tensorflow as tf$/;"	namespace	line:37
+download_and_convert_cifar10	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from datasets import download_and_convert_cifar10$/;"	namespace	line:39
+download_and_convert_flowers	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from datasets import download_and_convert_flowers$/;"	namespace	line:40
+download_and_convert_mnist	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^from datasets import download_and_convert_mnist$/;"	namespace	line:41
+FLAGS	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^FLAGS = tf.app.flags.FLAGS$/;"	variable	line:43
+main	C:\Users\borna\PycharmProjects\models\slim\download_and_convert_data.py	/^def main(_):$/;"	function	line:56
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from __future__ import print_function$/;"	namespace	line:19
+math	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^import math$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^import tensorflow as tf$/;"	namespace	line:22
+dataset_factory	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from datasets import dataset_factory$/;"	namespace	line:24
+nets_factory	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from nets import nets_factory$/;"	namespace	line:25
+preprocessing_factory	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^from preprocessing import preprocessing_factory$/;"	namespace	line:26
+slim	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^slim = tf.contrib.slim$/;"	variable	line:28
+FLAGS	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^FLAGS = tf.app.flags.FLAGS$/;"	variable	line:82
+main	C:\Users\borna\PycharmProjects\models\slim\eval_image_classifier.py	/^def main(_):$/;"	function	line:85
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^from __future__ import absolute_import$/;"	namespace	line:35
+division	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^from __future__ import division$/;"	namespace	line:36
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^from __future__ import print_function$/;"	namespace	line:37
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^import tensorflow as tf$/;"	namespace	line:39
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^slim = tf.contrib.slim$/;"	variable	line:41
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	variable	line:42
+alexnet_v2_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^def alexnet_v2_arg_scope(weight_decay=0.0005):$/;"	function	line:45
+alexnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet.py	/^def alexnet_v2(inputs,$/;"	function	line:55
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^from __future__ import print_function$/;"	namespace	line:18
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^import tensorflow as tf$/;"	namespace	line:20
+alexnet	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^from nets import alexnet$/;"	namespace	line:22
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^slim = tf.contrib.slim$/;"	variable	line:24
+AlexnetV2Test	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^class AlexnetV2Test(tf.test.TestCase):$/;"	class	line:27
+testBuild	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testBuild(self):$/;"	member	line:29	class:AlexnetV2Test
+testFullyConvolutional	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testFullyConvolutional(self):$/;"	member	line:40	class:AlexnetV2Test
+testEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testEndPoints(self):$/;"	member	line:51	class:AlexnetV2Test
+testModelVariables	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testModelVariables(self):$/;"	member	line:72	class:AlexnetV2Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testEvaluation(self):$/;"	member	line:99	class:AlexnetV2Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:111	class:AlexnetV2Test
+testForward	C:\Users\borna\PycharmProjects\models\slim\nets\alexnet_test.py	/^  def testForward(self):$/;"	member	line:134	class:AlexnetV2Test
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^import tensorflow as tf$/;"	namespace	line:21
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^slim = tf.contrib.slim$/;"	variable	line:23
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(stddev=stddev)$/;"	variable	line:25
+cifarnet	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^def cifarnet(images, num_classes=10, is_training=False,$/;"	function	line:28
+cifarnet_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\cifarnet.py	/^def cifarnet_arg_scope(weight_decay=0.004):$/;"	function	line:93
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from __future__ import print_function$/;"	namespace	line:19
+inception_resnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_resnet_v2 import inception_resnet_v2$/;"	namespace	line:22
+inception_resnet_v2_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_resnet_v2 import inception_resnet_v2_arg_scope$/;"	namespace	line:23
+inception_v1	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v1 import inception_v1$/;"	namespace	line:24
+inception_v1_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v1 import inception_v1_arg_scope$/;"	namespace	line:25
+inception_v1_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v1 import inception_v1_base$/;"	namespace	line:26
+inception_v2	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v2 import inception_v2$/;"	namespace	line:27
+inception_v2_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v2 import inception_v2_arg_scope$/;"	namespace	line:28
+inception_v2_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v2 import inception_v2_base$/;"	namespace	line:29
+inception_v3	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v3 import inception_v3$/;"	namespace	line:30
+inception_v3_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v3 import inception_v3_arg_scope$/;"	namespace	line:31
+inception_v3_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v3 import inception_v3_base$/;"	namespace	line:32
+inception_v4	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v4 import inception_v4$/;"	namespace	line:33
+inception_v4_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v4 import inception_v4_arg_scope$/;"	namespace	line:34
+inception_v4_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception.py	/^from nets.inception_v4 import inception_v4_base$/;"	namespace	line:35
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^from __future__ import absolute_import$/;"	namespace	line:23
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^from __future__ import division$/;"	namespace	line:24
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^from __future__ import print_function$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^import tensorflow as tf$/;"	namespace	line:28
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^slim = tf.contrib.slim$/;"	variable	line:30
+block35	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^def block35(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	function	line:33
+block17	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^def block17(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	function	line:54
+block8	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^def block8(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):$/;"	function	line:74
+inception_resnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^def inception_resnet_v2(inputs, num_classes=1001, is_training=True,$/;"	function	line:94
+inception_resnet_v2_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2.py	/^def inception_resnet_v2_arg_scope(weight_decay=0.00004,$/;"	function	line:254
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^from __future__ import print_function$/;"	namespace	line:18
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^import tensorflow as tf$/;"	namespace	line:20
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^from nets import inception$/;"	namespace	line:22
+InceptionTest	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^class InceptionTest(tf.test.TestCase):$/;"	class	line:25
+testBuildLogits	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testBuildLogits(self):$/;"	member	line:27	class:InceptionTest
+testBuildEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testBuildEndPoints(self):$/;"	member	line:38	class:InceptionTest
+testVariablesSetDevice	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testVariablesSetDevice(self):$/;"	member	line:57	class:InceptionTest
+testHalfSizeImages	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testHalfSizeImages(self):$/;"	member	line:73	class:InceptionTest
+testUnknownBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testUnknownBatchSize(self):$/;"	member	line:87	class:InceptionTest
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testEvaluation(self):$/;"	member	line:102	class:InceptionTest
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\inception_resnet_v2_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:116	class:InceptionTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^from __future__ import absolute_import$/;"	namespace	line:23
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^from __future__ import division$/;"	namespace	line:24
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^from __future__ import print_function$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^import tensorflow as tf$/;"	namespace	line:27
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^slim = tf.contrib.slim$/;"	variable	line:29
+inception_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_utils.py	/^def inception_arg_scope(weight_decay=0.00004,$/;"	function	line:32
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^import tensorflow as tf$/;"	namespace	line:21
+inception_utils	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^from nets import inception_utils$/;"	namespace	line:23
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^slim = tf.contrib.slim$/;"	variable	line:25
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	variable	line:26
+inception_v1_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^def inception_v1_base(inputs,$/;"	function	line:29
+inception_v1	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^def inception_v1(inputs,$/;"	function	line:248
+inception_v1_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1.py	/^inception_v1_arg_scope = inception_utils.inception_arg_scope$/;"	variable	line:305
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^from nets import inception$/;"	namespace	line:24
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^slim = tf.contrib.slim$/;"	variable	line:26
+InceptionV1Test	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^class InceptionV1Test(tf.test.TestCase):$/;"	class	line:29
+testBuildClassificationNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testBuildClassificationNetwork(self):$/;"	member	line:31	class:InceptionV1Test
+testBuildBaseNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testBuildBaseNetwork(self):$/;"	member	line:45	class:InceptionV1Test
+testBuildOnlyUptoFinalEndpoint	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	member	line:61	class:InceptionV1Test
+testBuildAndCheckAllEndPointsUptoMixed5c	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	member	line:78	class:InceptionV1Test
+testModelHasExpectedNumberOfParameters	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	member	line:109	class:InceptionV1Test
+testHalfSizeImages	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testHalfSizeImages(self):$/;"	member	line:119	class:InceptionV1Test
+testUnknownImageShape	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testUnknownImageShape(self):$/;"	member	line:129	class:InceptionV1Test
+testUnknowBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testUnknowBatchSize(self):$/;"	member	line:147	class:InceptionV1Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testEvaluation(self):$/;"	member	line:164	class:InceptionV1Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:179	class:InceptionV1Test
+testLogitsNotSqueezed	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v1_test.py	/^  def testLogitsNotSqueezed(self):$/;"	member	line:196	class:InceptionV1Test
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^import tensorflow as tf$/;"	namespace	line:21
+inception_utils	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^from nets import inception_utils$/;"	namespace	line:23
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^slim = tf.contrib.slim$/;"	variable	line:25
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	variable	line:26
+inception_v2_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^def inception_v2_base(inputs,$/;"	function	line:29
+inception_v2	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^def inception_v2(inputs,$/;"	function	line:416
+_reduced_kernel_size_for_small_input	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^def _reduced_kernel_size_for_small_input(input_tensor, kernel_size):$/;"	function	line:489
+inception_v2_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2.py	/^inception_v2_arg_scope = inception_utils.inception_arg_scope$/;"	variable	line:520
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^from nets import inception$/;"	namespace	line:24
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^slim = tf.contrib.slim$/;"	variable	line:26
+InceptionV2Test	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^class InceptionV2Test(tf.test.TestCase):$/;"	class	line:29
+testBuildClassificationNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildClassificationNetwork(self):$/;"	member	line:31	class:InceptionV2Test
+testBuildBaseNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildBaseNetwork(self):$/;"	member	line:45	class:InceptionV2Test
+testBuildOnlyUptoFinalEndpoint	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	member	line:61	class:InceptionV2Test
+testBuildAndCheckAllEndPointsUptoMixed5c	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed5c(self):$/;"	member	line:77	class:InceptionV2Test
+testModelHasExpectedNumberOfParameters	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	member	line:106	class:InceptionV2Test
+testBuildEndPointsWithDepthMultiplierLessThanOne	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildEndPointsWithDepthMultiplierLessThanOne(self):$/;"	member	line:116	class:InceptionV2Test
+testBuildEndPointsWithDepthMultiplierGreaterThanOne	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testBuildEndPointsWithDepthMultiplierGreaterThanOne(self):$/;"	member	line:136	class:InceptionV2Test
+testRaiseValueErrorWithInvalidDepthMultiplier	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testRaiseValueErrorWithInvalidDepthMultiplier(self):$/;"	member	line:156	class:InceptionV2Test
+testHalfSizeImages	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testHalfSizeImages(self):$/;"	member	line:167	class:InceptionV2Test
+testUnknownImageShape	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testUnknownImageShape(self):$/;"	member	line:181	class:InceptionV2Test
+testUnknowBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testUnknowBatchSize(self):$/;"	member	line:199	class:InceptionV2Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testEvaluation(self):$/;"	member	line:216	class:InceptionV2Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:231	class:InceptionV2Test
+testLogitsNotSqueezed	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v2_test.py	/^  def testLogitsNotSqueezed(self):$/;"	member	line:248	class:InceptionV2Test
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^import tensorflow as tf$/;"	namespace	line:21
+inception_utils	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^from nets import inception_utils$/;"	namespace	line:23
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^slim = tf.contrib.slim$/;"	variable	line:25
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	variable	line:26
+inception_v3_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^def inception_v3_base(inputs,$/;"	function	line:29
+inception_v3	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^def inception_v3(inputs,$/;"	function	line:419
+_reduced_kernel_size_for_small_input	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^def _reduced_kernel_size_for_small_input(input_tensor, kernel_size):$/;"	function	line:529
+inception_v3_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3.py	/^inception_v3_arg_scope = inception_utils.inception_arg_scope$/;"	variable	line:560
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^from nets import inception$/;"	namespace	line:24
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^slim = tf.contrib.slim$/;"	variable	line:26
+InceptionV3Test	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^class InceptionV3Test(tf.test.TestCase):$/;"	class	line:29
+testBuildClassificationNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildClassificationNetwork(self):$/;"	member	line:31	class:InceptionV3Test
+testBuildBaseNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildBaseNetwork(self):$/;"	member	line:45	class:InceptionV3Test
+testBuildOnlyUptoFinalEndpoint	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildOnlyUptoFinalEndpoint(self):$/;"	member	line:62	class:InceptionV3Test
+testBuildAndCheckAllEndPointsUptoMixed7c	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildAndCheckAllEndPointsUptoMixed7c(self):$/;"	member	line:80	class:InceptionV3Test
+testModelHasExpectedNumberOfParameters	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testModelHasExpectedNumberOfParameters(self):$/;"	member	line:112	class:InceptionV3Test
+testBuildEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildEndPoints(self):$/;"	member	line:122	class:InceptionV3Test
+testBuildEndPointsWithDepthMultiplierLessThanOne	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildEndPointsWithDepthMultiplierLessThanOne(self):$/;"	member	line:146	class:InceptionV3Test
+testBuildEndPointsWithDepthMultiplierGreaterThanOne	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testBuildEndPointsWithDepthMultiplierGreaterThanOne(self):$/;"	member	line:166	class:InceptionV3Test
+testRaiseValueErrorWithInvalidDepthMultiplier	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testRaiseValueErrorWithInvalidDepthMultiplier(self):$/;"	member	line:186	class:InceptionV3Test
+testHalfSizeImages	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testHalfSizeImages(self):$/;"	member	line:197	class:InceptionV3Test
+testUnknownImageShape	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testUnknownImageShape(self):$/;"	member	line:211	class:InceptionV3Test
+testUnknowBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testUnknowBatchSize(self):$/;"	member	line:228	class:InceptionV3Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testEvaluation(self):$/;"	member	line:245	class:InceptionV3Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:260	class:InceptionV3Test
+testLogitsNotSqueezed	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v3_test.py	/^  def testLogitsNotSqueezed(self):$/;"	member	line:278	class:InceptionV3Test
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^from __future__ import absolute_import$/;"	namespace	line:23
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^from __future__ import division$/;"	namespace	line:24
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^from __future__ import print_function$/;"	namespace	line:25
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^import tensorflow as tf$/;"	namespace	line:27
+inception_utils	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^from nets import inception_utils$/;"	namespace	line:29
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^slim = tf.contrib.slim$/;"	variable	line:31
+block_inception_a	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def block_inception_a(inputs, scope=None, reuse=None):$/;"	function	line:34
+block_reduction_a	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def block_reduction_a(inputs, scope=None, reuse=None):$/;"	function	line:55
+block_inception_b	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def block_inception_b(inputs, scope=None, reuse=None):$/;"	function	line:75
+block_reduction_b	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def block_reduction_b(inputs, scope=None, reuse=None):$/;"	function	line:99
+block_inception_c	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def block_inception_c(inputs, scope=None, reuse=None):$/;"	function	line:121
+inception_v4_base	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def inception_v4_base(inputs, final_endpoint='Mixed_7d', scope=None):$/;"	function	line:147
+add_and_check_final	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^  def add_and_check_final(name, net):$/;"	function	line:169	function:inception_v4_base
+inception_v4	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^def inception_v4(inputs, num_classes=1001, is_training=True,$/;"	function	line:257
+inception_v4_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4.py	/^inception_v4_arg_scope = inception_utils.inception_arg_scope$/;"	variable	line:323
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^from __future__ import print_function$/;"	namespace	line:18
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^import tensorflow as tf$/;"	namespace	line:20
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^from nets import inception$/;"	namespace	line:22
+InceptionTest	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^class InceptionTest(tf.test.TestCase):$/;"	class	line:25
+testBuildLogits	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testBuildLogits(self):$/;"	member	line:27	class:InceptionTest
+testBuildWithoutAuxLogits	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testBuildWithoutAuxLogits(self):$/;"	member	line:46	class:InceptionTest
+testAllEndPointsShapes	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testAllEndPointsShapes(self):$/;"	member	line:58	class:InceptionTest
+testBuildBaseNetwork	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testBuildBaseNetwork(self):$/;"	member	line:103	class:InceptionTest
+testBuildOnlyUpToFinalEndpoint	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testBuildOnlyUpToFinalEndpoint(self):$/;"	member	line:121	class:InceptionTest
+testVariablesSetDevice	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testVariablesSetDevice(self):$/;"	member	line:139	class:InceptionTest
+testHalfSizeImages	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testHalfSizeImages(self):$/;"	member	line:154	class:InceptionTest
+testUnknownBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testUnknownBatchSize(self):$/;"	member	line:167	class:InceptionTest
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testEvaluation(self):$/;"	member	line:182	class:InceptionTest
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\inception_v4_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:196	class:InceptionTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^import tensorflow as tf$/;"	namespace	line:21
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^slim = tf.contrib.slim$/;"	variable	line:23
+lenet	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^def lenet(images, num_classes=10, is_training=False,$/;"	function	line:26
+lenet_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\lenet.py	/^def lenet_arg_scope(weight_decay=0.0):$/;"	function	line:79
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from __future__ import print_function$/;"	namespace	line:19
+functools	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^import functools$/;"	namespace	line:20
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^import tensorflow as tf$/;"	namespace	line:22
+alexnet	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import alexnet$/;"	namespace	line:24
+cifarnet	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import cifarnet$/;"	namespace	line:25
+inception	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import inception$/;"	namespace	line:26
+lenet	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import lenet$/;"	namespace	line:27
+overfeat	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import overfeat$/;"	namespace	line:28
+resnet_v1	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import resnet_v1$/;"	namespace	line:29
+resnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import resnet_v2$/;"	namespace	line:30
+vgg	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^from nets import vgg$/;"	namespace	line:31
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^slim = tf.contrib.slim$/;"	variable	line:33
+networks_map	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^networks_map = {'alexnet_v2': alexnet.alexnet_v2,$/;"	variable	line:35
+arg_scopes_map	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^arg_scopes_map = {'alexnet_v2': alexnet.alexnet_v2_arg_scope,$/;"	variable	line:57
+get_network_fn	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^def get_network_fn(name, num_classes, weight_decay=0.0, is_training=False):$/;"	function	line:81
+network_fn	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory.py	/^  def network_fn(images):$/;"	function	line:102	function:get_network_fn
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^from __future__ import absolute_import$/;"	namespace	line:18
+division	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^from __future__ import division$/;"	namespace	line:19
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^from __future__ import print_function$/;"	namespace	line:20
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+nets_factory	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^from nets import nets_factory$/;"	namespace	line:24
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^slim = tf.contrib.slim$/;"	variable	line:26
+NetworksTest	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^class NetworksTest(tf.test.TestCase):$/;"	class	line:29
+testGetNetworkFn	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^  def testGetNetworkFn(self):$/;"	member	line:31	class:NetworksTest
+testGetNetworkFnArgScope	C:\Users\borna\PycharmProjects\models\slim\nets\nets_factory_test.py	/^  def testGetNetworkFnArgScope(self):$/;"	member	line:46	class:NetworksTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^from __future__ import absolute_import$/;"	namespace	line:30
+division	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^from __future__ import division$/;"	namespace	line:31
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^from __future__ import print_function$/;"	namespace	line:32
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^import tensorflow as tf$/;"	namespace	line:34
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^slim = tf.contrib.slim$/;"	variable	line:36
+trunc_normal	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)$/;"	variable	line:37
+overfeat_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^def overfeat_arg_scope(weight_decay=0.0005):$/;"	function	line:40
+overfeat	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat.py	/^def overfeat(inputs,$/;"	function	line:50
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^from __future__ import print_function$/;"	namespace	line:18
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^import tensorflow as tf$/;"	namespace	line:20
+overfeat	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^from nets import overfeat$/;"	namespace	line:22
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^slim = tf.contrib.slim$/;"	variable	line:24
+OverFeatTest	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^class OverFeatTest(tf.test.TestCase):$/;"	class	line:27
+testBuild	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testBuild(self):$/;"	member	line:29	class:OverFeatTest
+testFullyConvolutional	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testFullyConvolutional(self):$/;"	member	line:40	class:OverFeatTest
+testEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testEndPoints(self):$/;"	member	line:51	class:OverFeatTest
+testModelVariables	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testModelVariables(self):$/;"	member	line:72	class:OverFeatTest
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testEvaluation(self):$/;"	member	line:99	class:OverFeatTest
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:111	class:OverFeatTest
+testForward	C:\Users\borna\PycharmProjects\models\slim\nets\overfeat_test.py	/^  def testForward(self):$/;"	member	line:134	class:OverFeatTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^from __future__ import absolute_import$/;"	namespace	line:36
+division	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^from __future__ import division$/;"	namespace	line:37
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^from __future__ import print_function$/;"	namespace	line:38
+collections	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^import collections$/;"	namespace	line:40
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^import tensorflow as tf$/;"	namespace	line:41
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^slim = tf.contrib.slim$/;"	variable	line:43
+Block	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^class Block(collections.namedtuple('Block', ['scope', 'unit_fn', 'args'])):$/;"	class	line:46
+subsample	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^def subsample(inputs, factor, scope=None):$/;"	function	line:59
+conv2d_same	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^def conv2d_same(inputs, num_outputs, kernel_size, stride, rate=1, scope=None):$/;"	function	line:77
+stack_blocks_dense	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^def stack_blocks_dense(net, blocks, output_stride=None,$/;"	function	line:126
+resnet_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_utils.py	/^def resnet_arg_scope(weight_decay=0.0001,$/;"	function	line:209
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^from __future__ import absolute_import$/;"	namespace	line:55
+division	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^from __future__ import division$/;"	namespace	line:56
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^from __future__ import print_function$/;"	namespace	line:57
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^import tensorflow as tf$/;"	namespace	line:59
+resnet_utils	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^from nets import resnet_utils$/;"	namespace	line:61
+resnet_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^resnet_arg_scope = resnet_utils.resnet_arg_scope$/;"	variable	line:64
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^slim = tf.contrib.slim$/;"	variable	line:65
+bottleneck	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def bottleneck(inputs, depth, depth_bottleneck, stride, rate=1,$/;"	function	line:69
+resnet_v1	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def resnet_v1(inputs,$/;"	function	line:115
+resnet_v1_50	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def resnet_v1_50(inputs,$/;"	function	line:215
+resnet_v1_101	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def resnet_v1_101(inputs,$/;"	function	line:241
+resnet_v1_152	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def resnet_v1_152(inputs,$/;"	function	line:267
+resnet_v1_200	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1.py	/^def resnet_v1_200(inputs,$/;"	function	line:292
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+resnet_utils	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^from nets import resnet_utils$/;"	namespace	line:24
+resnet_v1	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^from nets import resnet_v1$/;"	namespace	line:25
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^slim = tf.contrib.slim$/;"	variable	line:27
+create_test_input	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^def create_test_input(batch_size, height, width, channels):$/;"	function	line:30
+ResnetUtilsTest	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^class ResnetUtilsTest(tf.test.TestCase):$/;"	class	line:56
+testSubsampleThreeByThree	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testSubsampleThreeByThree(self):$/;"	member	line:58	class:ResnetUtilsTest
+testSubsampleFourByFour	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testSubsampleFourByFour(self):$/;"	member	line:65	class:ResnetUtilsTest
+testConv2DSameEven	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testConv2DSameEven(self):$/;"	member	line:72	class:ResnetUtilsTest
+testConv2DSameOdd	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testConv2DSameOdd(self):$/;"	member	line:113	class:ResnetUtilsTest
+_resnet_plain	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def _resnet_plain(self, inputs, blocks, output_stride=None, scope=None):$/;"	member	line:154	class:ResnetUtilsTest
+testEndPointsV1	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testEndPointsV1(self):$/;"	member	line:162	class:ResnetUtilsTest
+_stack_blocks_nondense	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def _stack_blocks_nondense(self, net, blocks):$/;"	member	line:187	class:ResnetUtilsTest
+_atrousValues	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def _atrousValues(self, bottleneck):$/;"	member	line:201	class:ResnetUtilsTest
+testAtrousValuesBottleneck	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testAtrousValuesBottleneck(self):$/;"	member	line:247	class:ResnetUtilsTest
+ResnetCompleteNetworkTest	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^class ResnetCompleteNetworkTest(tf.test.TestCase):$/;"	class	line:251
+_resnet_small	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def _resnet_small(self,$/;"	member	line:254	class:ResnetCompleteNetworkTest
+testClassificationEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testClassificationEndPoints(self):$/;"	member	line:282	class:ResnetCompleteNetworkTest
+testClassificationShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testClassificationShapes(self):$/;"	member	line:296	class:ResnetCompleteNetworkTest
+testFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testFullyConvolutionalEndpointShapes(self):$/;"	member	line:313	class:ResnetCompleteNetworkTest
+testRootlessFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testRootlessFullyConvolutionalEndpointShapes(self):$/;"	member	line:330	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testAtrousFullyConvolutionalEndpointShapes(self):$/;"	member	line:348	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalValues	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testAtrousFullyConvolutionalValues(self):$/;"	member	line:368	class:ResnetCompleteNetworkTest
+testUnknownBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testUnknownBatchSize(self):$/;"	member	line:395	class:ResnetCompleteNetworkTest
+testFullyConvolutionalUnknownHeightWidth	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testFullyConvolutionalUnknownHeightWidth(self):$/;"	member	line:414	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalUnknownHeightWidth	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v1_test.py	/^  def testAtrousFullyConvolutionalUnknownHeightWidth(self):$/;"	member	line:429	class:ResnetCompleteNetworkTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^from __future__ import absolute_import$/;"	namespace	line:49
+division	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^from __future__ import division$/;"	namespace	line:50
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^from __future__ import print_function$/;"	namespace	line:51
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^import tensorflow as tf$/;"	namespace	line:53
+resnet_utils	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^from nets import resnet_utils$/;"	namespace	line:55
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^slim = tf.contrib.slim$/;"	variable	line:57
+resnet_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^resnet_arg_scope = resnet_utils.resnet_arg_scope$/;"	variable	line:58
+bottleneck	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def bottleneck(inputs, depth, depth_bottleneck, stride, rate=1,$/;"	function	line:62
+resnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def resnet_v2(inputs,$/;"	function	line:111
+resnet_v2_50	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def resnet_v2_50(inputs,$/;"	function	line:222
+resnet_v2_101	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def resnet_v2_101(inputs,$/;"	function	line:247
+resnet_v2_152	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def resnet_v2_152(inputs,$/;"	function	line:272
+resnet_v2_200	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2.py	/^def resnet_v2_200(inputs,$/;"	function	line:297
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^from __future__ import print_function$/;"	namespace	line:19
+np	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^import numpy as np$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^import tensorflow as tf$/;"	namespace	line:22
+resnet_utils	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^from nets import resnet_utils$/;"	namespace	line:24
+resnet_v2	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^from nets import resnet_v2$/;"	namespace	line:25
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^slim = tf.contrib.slim$/;"	variable	line:27
+create_test_input	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^def create_test_input(batch_size, height, width, channels):$/;"	function	line:30
+ResnetUtilsTest	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^class ResnetUtilsTest(tf.test.TestCase):$/;"	class	line:56
+testSubsampleThreeByThree	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testSubsampleThreeByThree(self):$/;"	member	line:58	class:ResnetUtilsTest
+testSubsampleFourByFour	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testSubsampleFourByFour(self):$/;"	member	line:65	class:ResnetUtilsTest
+testConv2DSameEven	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testConv2DSameEven(self):$/;"	member	line:72	class:ResnetUtilsTest
+testConv2DSameOdd	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testConv2DSameOdd(self):$/;"	member	line:113	class:ResnetUtilsTest
+_resnet_plain	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def _resnet_plain(self, inputs, blocks, output_stride=None, scope=None):$/;"	member	line:154	class:ResnetUtilsTest
+testEndPointsV2	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testEndPointsV2(self):$/;"	member	line:162	class:ResnetUtilsTest
+_stack_blocks_nondense	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def _stack_blocks_nondense(self, net, blocks):$/;"	member	line:187	class:ResnetUtilsTest
+_atrousValues	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def _atrousValues(self, bottleneck):$/;"	member	line:201	class:ResnetUtilsTest
+testAtrousValuesBottleneck	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testAtrousValuesBottleneck(self):$/;"	member	line:247	class:ResnetUtilsTest
+ResnetCompleteNetworkTest	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^class ResnetCompleteNetworkTest(tf.test.TestCase):$/;"	class	line:251
+_resnet_small	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def _resnet_small(self,$/;"	member	line:254	class:ResnetCompleteNetworkTest
+testClassificationEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testClassificationEndPoints(self):$/;"	member	line:282	class:ResnetCompleteNetworkTest
+testClassificationShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testClassificationShapes(self):$/;"	member	line:296	class:ResnetCompleteNetworkTest
+testFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testFullyConvolutionalEndpointShapes(self):$/;"	member	line:313	class:ResnetCompleteNetworkTest
+testRootlessFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testRootlessFullyConvolutionalEndpointShapes(self):$/;"	member	line:330	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalEndpointShapes	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testAtrousFullyConvolutionalEndpointShapes(self):$/;"	member	line:348	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalValues	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testAtrousFullyConvolutionalValues(self):$/;"	member	line:368	class:ResnetCompleteNetworkTest
+testUnknownBatchSize	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testUnknownBatchSize(self):$/;"	member	line:397	class:ResnetCompleteNetworkTest
+testFullyConvolutionalUnknownHeightWidth	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testFullyConvolutionalUnknownHeightWidth(self):$/;"	member	line:416	class:ResnetCompleteNetworkTest
+testAtrousFullyConvolutionalUnknownHeightWidth	C:\Users\borna\PycharmProjects\models\slim\nets\resnet_v2_test.py	/^  def testAtrousFullyConvolutionalUnknownHeightWidth(self):$/;"	member	line:432	class:ResnetCompleteNetworkTest
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^from __future__ import absolute_import$/;"	namespace	line:40
+division	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^from __future__ import division$/;"	namespace	line:41
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^from __future__ import print_function$/;"	namespace	line:42
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^import tensorflow as tf$/;"	namespace	line:44
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^slim = tf.contrib.slim$/;"	variable	line:46
+vgg_arg_scope	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^def vgg_arg_scope(weight_decay=0.0005):$/;"	function	line:49
+vgg_a	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^def vgg_a(inputs,$/;"	function	line:66
+vgg_16	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^def vgg_16(inputs,$/;"	function	line:131
+vgg_19	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^def vgg_19(inputs,$/;"	function	line:196
+vgg_d	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^vgg_d = vgg_16$/;"	variable	line:261
+vgg_e	C:\Users\borna\PycharmProjects\models\slim\nets\vgg.py	/^vgg_e = vgg_19$/;"	variable	line:262
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^from __future__ import absolute_import$/;"	namespace	line:16
+division	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^from __future__ import division$/;"	namespace	line:17
+print_function	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^from __future__ import print_function$/;"	namespace	line:18
+tf	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^import tensorflow as tf$/;"	namespace	line:20
+vgg	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^from nets import vgg$/;"	namespace	line:22
+slim	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^slim = tf.contrib.slim$/;"	variable	line:24
+VGGATest	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^class VGGATest(tf.test.TestCase):$/;"	class	line:27
+testBuild	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testBuild(self):$/;"	member	line:29	class:VGGATest
+testFullyConvolutional	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testFullyConvolutional(self):$/;"	member	line:40	class:VGGATest
+testEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEndPoints(self):$/;"	member	line:51	class:VGGATest
+testModelVariables	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testModelVariables(self):$/;"	member	line:77	class:VGGATest
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEvaluation(self):$/;"	member	line:110	class:VGGATest
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:122	class:VGGATest
+testForward	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testForward(self):$/;"	member	line:145	class:VGGATest
+VGG16Test	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^class VGG16Test(tf.test.TestCase):$/;"	class	line:156
+testBuild	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testBuild(self):$/;"	member	line:158	class:VGG16Test
+testFullyConvolutional	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testFullyConvolutional(self):$/;"	member	line:169	class:VGG16Test
+testEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEndPoints(self):$/;"	member	line:180	class:VGG16Test
+testModelVariables	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testModelVariables(self):$/;"	member	line:211	class:VGG16Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEvaluation(self):$/;"	member	line:254	class:VGG16Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:266	class:VGG16Test
+testForward	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testForward(self):$/;"	member	line:289	class:VGG16Test
+VGG19Test	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^class VGG19Test(tf.test.TestCase):$/;"	class	line:300
+testBuild	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testBuild(self):$/;"	member	line:302	class:VGG19Test
+testFullyConvolutional	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testFullyConvolutional(self):$/;"	member	line:313	class:VGG19Test
+testEndPoints	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEndPoints(self):$/;"	member	line:324	class:VGG19Test
+testModelVariables	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testModelVariables(self):$/;"	member	line:359	class:VGG19Test
+testEvaluation	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testEvaluation(self):$/;"	member	line:409	class:VGG19Test
+testTrainEvalWithReuse	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testTrainEvalWithReuse(self):$/;"	member	line:421	class:VGG19Test
+testForward	C:\Users\borna\PycharmProjects\models\slim\nets\vgg_test.py	/^  def testForward(self):$/;"	member	line:444	class:VGG19Test
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^from __future__ import absolute_import$/;"	namespace	line:19
+division	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^from __future__ import division$/;"	namespace	line:20
+print_function	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^from __future__ import print_function$/;"	namespace	line:21
+tf	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^import tensorflow as tf$/;"	namespace	line:23
+_PADDING	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^_PADDING = 4$/;"	variable	line:25
+slim	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^slim = tf.contrib.slim$/;"	variable	line:27
+preprocess_for_train	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^def preprocess_for_train(image,$/;"	function	line:30
+preprocess_for_eval	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^def preprocess_for_eval(image, output_height, output_width):$/;"	function	line:73
+preprocess_image	C:\Users\borna\PycharmProjects\models\slim\preprocessing\cifarnet_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training=False):$/;"	function	line:98
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^import tensorflow as tf$/;"	namespace	line:21
+control_flow_ops	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^from tensorflow.python.ops import control_flow_ops$/;"	namespace	line:23
+apply_with_random_selector	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def apply_with_random_selector(x, func, num_cases):$/;"	function	line:26
+distort_color	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def distort_color(image, color_ordering=0, fast_mode=True, scope=None):$/;"	function	line:45
+distorted_bounding_box_crop	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def distorted_bounding_box_crop(image,$/;"	function	line:99
+preprocess_for_train	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def preprocess_for_train(image, height, width, bbox,$/;"	function	line:156
+preprocess_for_eval	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def preprocess_for_eval(image, height, width,$/;"	function	line:237
+preprocess_image	C:\Users\borna\PycharmProjects\models\slim\preprocessing\inception_preprocessing.py	/^def preprocess_image(image, height, width,$/;"	function	line:278
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^import tensorflow as tf$/;"	namespace	line:21
+slim	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^slim = tf.contrib.slim$/;"	variable	line:23
+preprocess_image	C:\Users\borna\PycharmProjects\models\slim\preprocessing\lenet_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training):$/;"	function	line:26
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^import tensorflow as tf$/;"	namespace	line:21
+cifarnet_preprocessing	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from preprocessing import cifarnet_preprocessing$/;"	namespace	line:23
+inception_preprocessing	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from preprocessing import inception_preprocessing$/;"	namespace	line:24
+lenet_preprocessing	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from preprocessing import lenet_preprocessing$/;"	namespace	line:25
+vgg_preprocessing	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^from preprocessing import vgg_preprocessing$/;"	namespace	line:26
+slim	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^slim = tf.contrib.slim$/;"	variable	line:28
+get_preprocessing	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^def get_preprocessing(name, is_training=False):$/;"	function	line:31
+preprocessing_fn	C:\Users\borna\PycharmProjects\models\slim\preprocessing\preprocessing_factory.py	/^  def preprocessing_fn(image, output_height, output_width, **kwargs):$/;"	function	line:71	function:get_preprocessing
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^from __future__ import absolute_import$/;"	namespace	line:31
+division	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^from __future__ import division$/;"	namespace	line:32
+print_function	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^from __future__ import print_function$/;"	namespace	line:33
+tf	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^import tensorflow as tf$/;"	namespace	line:35
+slim	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^slim = tf.contrib.slim$/;"	variable	line:37
+_R_MEAN	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^_R_MEAN = 123.68$/;"	variable	line:39
+_G_MEAN	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^_G_MEAN = 116.78$/;"	variable	line:40
+_B_MEAN	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^_B_MEAN = 103.94$/;"	variable	line:41
+_RESIZE_SIDE_MIN	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^_RESIZE_SIDE_MIN = 256$/;"	variable	line:43
+_RESIZE_SIDE_MAX	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^_RESIZE_SIDE_MAX = 512$/;"	variable	line:44
+_crop	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _crop(image, offset_height, offset_width, crop_height, crop_width):$/;"	function	line:47
+_random_crop	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _random_crop(image_list, crop_height, crop_width):$/;"	function	line:90
+_central_crop	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _central_crop(image_list, crop_height, crop_width):$/;"	function	line:173
+_mean_image_subtraction	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _mean_image_subtraction(image, means):$/;"	function	line:198
+_smallest_size_at_least	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _smallest_size_at_least(height, width, smallest_side):$/;"	function	line:231
+_aspect_preserving_resize	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def _aspect_preserving_resize(image, smallest_side):$/;"	function	line:261
+preprocess_for_train	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def preprocess_for_train(image,$/;"	function	line:286
+preprocess_for_eval	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def preprocess_for_eval(image, output_height, output_width, resize_side):$/;"	function	line:319
+preprocess_image	C:\Users\borna\PycharmProjects\models\slim\preprocessing\vgg_preprocessing.py	/^def preprocess_image(image, output_height, output_width, is_training=False,$/;"	function	line:338
+TensorFlow-Slim image classification library	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# TensorFlow-Slim image classification library$/;"	function	line:1
+Contacts	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Contacts$/;"	function	line:19
+Table of contents	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Table of contents$/;"	function	line:27
+Installation	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Installation$/;"	function	line:36
+Installing latest version of TF-slim	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Installing latest version of TF-slim$/;"	function	line:42
+Installing the TF-slim image models library	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Installing the TF-slim image models library$/;"	function	line:52
+Preparing the datasets	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Preparing the datasets$/;"	function	line:79
+Downloading and converting to TFRecord format	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Downloading and converting to TFRecord format$/;"	function	line:92
+Creating a TF-Slim Dataset Descriptor.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^## Creating a TF-Slim Dataset Descriptor.$/;"	function	line:132
+Selects the 'validation' dataset.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Selects the 'validation' dataset.$/;"	function	line:156
+Creates a TF-Slim DataProvider which reads the dataset in the background	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Creates a TF-Slim DataProvider which reads the dataset in the background$/;"	function	line:159
+during both training and testing.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# during both training and testing.$/;"	function	line:160
+Pre-trained Models	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Pre-trained Models$/;"	function	line:166
+Training a model from scratch.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Training a model from scratch.$/;"	function	line:225
+Fine-tuning a model from an existing checkpoint	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Fine-tuning a model from an existing checkpoint$/;"	function	line:250
+Evaluating performance of a model	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Evaluating performance of a model$/;"	function	line:305
+Troubleshooting	C:\Users\borna\PycharmProjects\models\slim\README.md	/^# Troubleshooting$/;"	function	line:327
+The model runs out of CPU memory.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### The model runs out of CPU memory.$/;"	function	line:329
+The model runs out of GPU memory.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### The model runs out of GPU memory.$/;"	function	line:334
+The model training results in NaN's.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### The model training results in NaN's.$/;"	function	line:339
+The ResNet and VGG Models have 1000 classes but the ImageNet dataset has 1001	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### The ResNet and VGG Models have 1000 classes but the ImageNet dataset has 1001$/;"	function	line:344
+I wish to train a model with a different image size.	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### I wish to train a model with a different image size.$/;"	function	line:361
+What hardware specification are these hyper-parameters targeted for?	C:\Users\borna\PycharmProjects\models\slim\README.md	/^#### What hardware specification are these hyper-parameters targeted for?$/;"	function	line:374
+absolute_import	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from __future__ import absolute_import$/;"	namespace	line:17
+division	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from __future__ import division$/;"	namespace	line:18
+print_function	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from __future__ import print_function$/;"	namespace	line:19
+tf	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^import tensorflow as tf$/;"	namespace	line:21
+dataset_factory	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from datasets import dataset_factory$/;"	namespace	line:23
+model_deploy	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from deployment import model_deploy$/;"	namespace	line:24
+nets_factory	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from nets import nets_factory$/;"	namespace	line:25
+preprocessing_factory	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^from preprocessing import preprocessing_factory$/;"	namespace	line:26
+slim	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^slim = tf.contrib.slim$/;"	variable	line:28
+FLAGS	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^FLAGS = tf.app.flags.FLAGS$/;"	variable	line:218
+_configure_learning_rate	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^def _configure_learning_rate(num_samples_per_epoch, global_step):$/;"	function	line:221
+_configure_optimizer	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^def _configure_optimizer(learning_rate):$/;"	function	line:261
+_get_init_fn	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^def _get_init_fn():$/;"	function	line:312
+_get_variables_to_train	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^def _get_variables_to_train():$/;"	function	line:361
+main	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^def main(_):$/;"	function	line:379
+clone_fn	C:\Users\borna\PycharmProjects\models\slim\train_image_classifier.py	/^    def clone_fn(batch_queue):$/;"	function	line:451	function:main
